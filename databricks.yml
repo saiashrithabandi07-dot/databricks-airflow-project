@@ -8,4 +8,4 @@ resources:
       tasks:
         - task_key: run_notebook
           notebook_task:
-            notebook_path: ./Notebooks/sales.py
+            notebook_path: ./Notebooks/sales
