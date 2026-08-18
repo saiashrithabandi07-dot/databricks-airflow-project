@@ -1,5 +1,3 @@
-# databricks.yml
-
 bundle:
   name: sales_pipeline
 
@@ -7,3 +5,7 @@ resources:
   jobs:
     sales_job:
       name: Sales_ETL_Job
+      tasks:
+        - task_key: run_notebook
+          notebook_task:
+            notebook_path: ./Notebooks/sales.py
