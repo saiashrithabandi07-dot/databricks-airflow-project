@@ -1,1 +1,9 @@
+# databricks.yml
 
+bundle:
+  name: sales_pipeline
+
+resources:
+  jobs:
+    sales_job:
+      name: Sales_ETL_Job
