@@ -6,6 +6,6 @@ resources:
     sales_job:
       name: Sales_ETL_Job
       tasks:
-        - task_key: run_notebook
-          notebook_task:
-            notebook_path: ./Notebooks/sales
+        - task_key: run_sales
+          spark_python_task:
+            python_file: ./Notebooks/sales.py
